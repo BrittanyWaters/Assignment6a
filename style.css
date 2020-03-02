@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+}
+
+.topGradient {
+  background: linear-gradient(black, 1%, white);
+}
+
+.bottomGradient {
+  background: linear-gradient(white, 90%, black);
+}
+
+.top {
+  margin: 0;
+  border-top: 1px solid green;
+}
+
+.bottom {
+  margin: 0;
+  border-bottom: 1px solid green;
+}
+
+body {
+  border-top: 1px solid green;
+  border-bottom: 1px solid green;
+}
+
+address {
+  direction: ltr;
+  text-align: right;
+  margin: 40px;
+}
+
+p {
+  line-height: 1.3em;
+  margin-bottom: 1em;
+}
+
+h1 {
+  background-image: url('images/logo.png');
+  display: inline-block;
+  height: 128px;
+  margin: 25px;
+  padding-right: 28px;
+  color: white;
+  box-shadow: 5px 5px 10px grey;
+  text-align: center;
+}
+
+.addressclass {
+  padding-top: 350px;
+}
